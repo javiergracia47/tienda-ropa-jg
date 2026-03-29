@@ -4,14 +4,14 @@
      font-family: Calibri, Arial, Helvetica, sans-serif;
  }
 
-
 header {
-    background-color: #2A3C2F;
+  background-color: #2A3C2F;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 7px;
     padding-bottom: 7px;
     height: 250px;
+    position: relative;
 }
 header img {
     width: 250px;
@@ -54,10 +54,7 @@ nav ul li a:hover {
 
  /* mi imagen principal*/
  .imagen-principal {
-     margin-top: 20px;
      margin-bottom: 20px;
-     margin-left: 30px;
-     margin-right: 30px;
  }
 
 
@@ -89,7 +86,6 @@ nav ul li a:hover {
  .datos-empresa p {
      font-size: 18px;
      font-weight: bold;
-     margin-bottom: 40px
  }
 
  .datos-empresa p span {
@@ -98,10 +94,6 @@ nav ul li a:hover {
 
  .seccion-imagen-rep {
      margin-top: 20px;
-     margin-bottom: 20px;
-     margin-left: 30px;
-     margin-right: 30px;
-     padding: 20px;
  }
 
 
@@ -110,5 +102,82 @@ nav ul li a:hover {
      height: 320px;
  }
 
+ footer {
+     background-color: #2A3C2F;
+     color: #ffffff;
+     text-align: center;
+     font-size: 20px;
+     padding-top: 25px;
+     padding-bottom: 25px;
+     margin-top: 30px;
+ }
 
+@media screen and (max-width: 650px) {
+
+    header {
+        height: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+
+    header img {
+        width: 150px;
+        height: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .nombre-empresa {
+        display: block;
+        text-align: center;
+        padding-left: 0;
+        font-size: 25px;
+    }
+
+    nav {
+        display: block;
+        width: auto;       
+        text-align: center;
+    }
+
+    .imagen-principal img {
+        height: 200px;
+    }
+
+    .seccion-info {
+ 
+        padding: 10px;
+    }
+
+    .imagen-gerente {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+        height: 150px;
+    }
+
+    .datos-empresa {
+        display: block;
+        margin-top: 15px;
+    }
+
+    .datos-empresa p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .seccion-imagen-rep {
+        margin-left: 0;    
+        margin-right: 0;   
+        padding: 10px;
+    }
+
+    .imagen-tienda {
+        height: 180px;
+    }
+
+}
 
